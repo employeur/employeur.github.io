@@ -14946,23 +14946,27 @@ var MyApp = (function () {
     (called only for small screens)
      */
     MyApp.prototype.tabChanged = function (e) {
-        switch (this.selectedTab) {
-            case ("searchTab"):
-                this.rootPageMain = __WEBPACK_IMPORTED_MODULE_7__pages_search_module_search_search__["a" /* SearchPage */];
-                break;
-            case ("advertTab"):
-                this.rootPageMain = __WEBPACK_IMPORTED_MODULE_9__pages_home_home__["a" /* HomePage */];
-                break;
-            case ("missionTab"):
-                this.rootPageMain = __WEBPACK_IMPORTED_MODULE_5__pages_test_components_about_about__["a" /* AboutPage */];
-                break;
-            case ("accountTab"):
-                this.rootPageMain = __WEBPACK_IMPORTED_MODULE_13__pages_landing_page_landing_page__["a" /* LandingPage */];
-                break;
-            default:
-                this.rootPageMain = __WEBPACK_IMPORTED_MODULE_7__pages_search_module_search_search__["a" /* SearchPage */];
-                break;
-        }
+        var _this = this;
+        this.storage.get("currentUser").then(function (sdata) {
+            var currentUser = JSON.parse(sdata);
+            switch (_this.selectedTab) {
+                case ("searchTab"):
+                    _this.rootPageMain = __WEBPACK_IMPORTED_MODULE_7__pages_search_module_search_search__["a" /* SearchPage */];
+                    break;
+                case ("advertTab"):
+                    _this.rootPageMain = __WEBPACK_IMPORTED_MODULE_9__pages_home_home__["a" /* HomePage */];
+                    break;
+                case ("missionTab"):
+                    _this.rootPageMain = __WEBPACK_IMPORTED_MODULE_5__pages_test_components_about_about__["a" /* AboutPage */];
+                    break;
+                case ("accountTab"):
+                    _this.rootPageMain = (!currentUser ? __WEBPACK_IMPORTED_MODULE_15__pages_account_module_login_login__["a" /* LoginPage */] : __WEBPACK_IMPORTED_MODULE_17__pages_account_module_account_account__["a" /* AccountPage */]);
+                    break;
+                default:
+                    _this.rootPageMain = __WEBPACK_IMPORTED_MODULE_7__pages_search_module_search_search__["a" /* SearchPage */];
+                    break;
+            }
+        });
     };
     /*
     Initializing navigation params and subscribing to events

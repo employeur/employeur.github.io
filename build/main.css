@@ -27825,6 +27825,10 @@ button[clear].button.warn-btn:hover {
   font-weight: 500;
 }
 
+.gm-style > div:nth-child(7) {
+  display: none;
+}
+
 voj-calendar {
   display: block;
 }

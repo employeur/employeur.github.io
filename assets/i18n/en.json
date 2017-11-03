@@ -6,6 +6,7 @@
   "FORM": {
     "PHONE": "Phone number",
     "COUNTRY_CODE": "Country code",
+    "COUNTRY_CODE_PICKER_TITLE": "List of country codes",
     "EMAIL": "Email",
     "PASSWORD": "Password",
     "PASSWORD_CONFIRMATION": "Password confirmation",
@@ -37,7 +38,8 @@
     "NOT_REGISTERED": "Not registered ?",
     "CREATE_ACCOUNT": "Create an account",
     "FORGOTTEN_PASSWORD": "Forgotten password ?",
-    "VALIDATE": "Validate"
+    "VALIDATE": "Validate",
+    "UNRECOGNAZIED_NUMBER": "No account is associated with this phone number"
   },
 
   "SIGNUP": {
@@ -47,6 +49,11 @@
     "LOGIN": "Sign in",
     "NOTIFICATION_TITLE": "Warning!",
     "NOTIFICATION_SUBTITLE": "This credential is already registered. Enter a different phone number and an email."
+  },
+  "SIGNUP_CLOSE_CONFIRMATION_ALERT": {
+    "MESSAGE": "You leave your registration?",
+    "OK": "Continue",
+    "CANCEL": "Leave"
   },
   "RESET_PASSWORD": {
     "MESSAGE": "Your password is about to be reset. How would you like to receive it?",
@@ -119,6 +126,7 @@
     "MY_LANGUAGES": "My languages",
     "ADD_A_LANGUAGE": "Add a language",
     "LANGUAGE": "Language",
+    "LIST": "List of languages",
     "LEVEL": "Level",
     "VALIDATE": "Validate"
   },
@@ -234,6 +242,7 @@
     "COUNTRY_OF_BIRTH": "You must be over 18 years of age",
     "COUNTRY_OF_BIRTH_ERR": "Please choose a country of birth",
     "DEPARTMENT_OF_BIRTH": "Department of birth",
+    "DEPARTMENT_OF_BIRTH_DEFAULT": "99 - foreign",
     "DEPARTMENT_OF_BIRTH_ERR": "lease choose a department of birth",
     "PLACE_OF_BIRTH": "Place of birth",
     "PLACE_OF_BIRTH_ERR": "Please choose a place of birth",
@@ -278,6 +287,26 @@
   "TOASTS": {
     "EDITINGMESSAGE": "Test Editing toast ENG",
     "ENTERINGMESSAGE": "Test Entering toast ENG",
-    "ERRORMESSAGE": "Test Error toast ENG"
+    "ERRORMESSAGE": "Test Error toast ENG",
+    "OFFER_ADDED": "Offer added to your list in the CV section"
+  },
+  "OFFER_SET_JOB": {
+    "SECTOR":"Sector",
+    "WAGE":"Hourly wage",
+    "JOB":"Job",
+    "VALIDATE":"Validate",
+    "SHOW_CONVENTION_PARAMETERS":"Access job classification",
+    "HIDE_CONVENTION_PARAMETERS":"Hide job classification",
+    "LEVEL":"Level"
+  },
+  "LOGOUT_CONFIRMATION_ALERT": {
+    "MESSAGE": "Log out?",
+    "OK": "Yes",
+    "CANCEL": "No"
+  },
+  "CV_MODULE_ACCESS_ALERT": {
+    "MESSAGE": "You must log in",
+    "OK": "Login",
+    "CANCEL": "Sign up"
   }
 }

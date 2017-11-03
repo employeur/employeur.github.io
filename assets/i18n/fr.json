@@ -6,6 +6,7 @@
   "FORM": {
     "PHONE": "Numéro de téléphone",
     "COUNTRY_CODE": "Indicatif",
+    "COUNTRY_CODE_PICKER_TITLE": "Liste des indicatifs",
     "EMAIL": "Adresse mail",
     "PASSWORD": "Mot de passe",
     "PASSWORD_CONFIRMATION": "Confirmation du mot de passe",
@@ -37,7 +38,8 @@
     "NOT_REGISTERED": "Pas encore inscrit ?",
     "CREATE_ACCOUNT": "Créer un compte",
     "FORGOTTEN_PASSWORD": "Mot de passe oublié ?",
-    "VALIDATE": "Se connecter"
+    "VALIDATE": "Se connecter",
+    "UNRECOGNAZIED_NUMBER": "Aucun compte n'est associé à ce numéro de téléphone."
   },
 
   "SIGNUP": {
@@ -47,6 +49,11 @@
     "LOGIN": "Se connecter",
     "NOTIFICATION_TITLE": "Attention!",
     "NOTIFICATION_SUBTITLE": "Ces informations d'identification sont déjà enregistrées. Entrez un autre numéro de téléphone et un email."
+  },
+  "SIGNUP_CLOSE_CONFIRMATION_ALERT": {
+    "MESSAGE": "Vous quittez votre inscription ?",
+    "OK": "Continuer",
+    "CANCEL": "Quitter"
   },
   "RESET_PASSWORD": {
     "MESSAGE": "Votre mot de passe est sur le point d'être réinitialisé. Comment souhaitez-vous le recevoir?",
@@ -119,6 +126,7 @@
     "MY_LANGUAGES": "Mes langues",
     "ADD_A_LANGUAGE": "Ajouter une langue",
     "LANGUAGE": "Langue",
+    "LIST": "Liste des langues",
     "LEVEL": "Niveau",
     "VALIDATE": "Valider"
   },
@@ -234,6 +242,7 @@
     "COUNTRY_OF_BIRTH": "Pays de naissance",
     "COUNTRY_OF_BIRTH_ERR": "Veuillez choisir un pays de naissance",
     "DEPARTMENT_OF_BIRTH": "Département de naissance",
+    "DEPARTMENT_OF_BIRTH_DEFAULT": "99 - étranger",
     "DEPARTMENT_OF_BIRTH_ERR": "Veuillez choisir un département de naissance",
     "PLACE_OF_BIRTH": "Lieu de naissance",
     "PLACE_OF_BIRTH_ERR": "Veuillez choisir un lieu de naissance",
@@ -246,7 +255,7 @@
   "PERSONAL_DETAILS_IDENTITY": {
     "TITLE": "Mon identité",
     "NATIONALITY": "Nationalité",
-    "TYPE_CARD": "Type de pièce d'identité",
+    "TYPE_CARD": "Type de document",
     "CARD_NUMBER": "Numéro de pièce d'identité",
     "CARD_NUMBER_ERR": "Veuillez saisir un numéro de pièce d'identité valide",
     "DELIVERED_DATE": "Délivrée le",
@@ -278,6 +287,26 @@
   "TOASTS": {
     "EDITINGMESSAGE": "Vos informations ont bien été modifiées",
     "ENTERINGMESSAGE": "Vos informations ont bien été enregistrées.",
-    "ERRORMESSAGE": "Une erreur est survenue. Veuillez réessayer"
+    "ERRORMESSAGE": "Une erreur est survenue. Veuillez réessayer",
+    "OFFER_ADDED": "Offre ajoutée à votre liste dans la partie CV"
+  },
+  "OFFER_SET_JOB": {
+    "SECTOR":"Secteur",
+    "WAGE":"Taux horaire",
+    "JOB":"Job",
+    "VALIDATE":"Valider",
+    "SHOW_CONVENTION_PARAMETERS":"Accéder à la classification du poste",
+    "HIDE_CONVENTION_PARAMETERS":"Cacher la classification du poste",
+    "LEVEL":"Niveau"
+  },
+  "LOGOUT_CONFIRMATION_ALERT": {
+    "MESSAGE": "Déconnexion?",
+    "OK": "Oui",
+    "CANCEL": "Non"
+  },
+  "CV_MODULE_ACCESS_ALERT": {
+    "MESSAGE": "Vous devez vous connecter",
+    "OK": "Se connecter",
+    "CANCEL": "S'inscrire"
   }
 }

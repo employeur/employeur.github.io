@@ -27945,7 +27945,9 @@ Styles for the segments in the footer in small screens (the simulated tabs)
 }
 
 .voj-tabs ion-toolbar {
-  padding: 0;
+  min-height: 56px !important;
+  height: 62px !important;
+  padding: 0 !important;
 }
 
 .voj-tabs ion-toolbar ion-segment-button {

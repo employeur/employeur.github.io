@@ -28011,42 +28011,42 @@ button.button.custom-btn span.button-inner:first-letter {
 
 button.button.primary-btn:not([clear]),
 button.button.primary-btn:not([clear]):hover {
-  background-color: var(--voj-color-primary);
+  background-color: var(--voj-color-primary) !important;
 }
 
 button[clear].button.primary-btn,
 button[clear].button.primary-btn:hover {
-  color: var(--voj-color-primary);
-}
-
-button.button.danger-btn:not([clear]),
-button.button.danger-btn:not([clear]):hover {
-  background-color: var(--voj-color-danger);
-}
-
-button[clear].button.danger-btn,
-button[clear].button.danger-btn:hover {
-  color: var(--voj-color-danger);
+  color: var(--voj-color-primary) !important;
 }
 
 button.button.secondary-btn:not([clear]),
 button.button.secondary-btn:not([clear]):hover {
-  background-color: var(--voj-color-secondary);
+  background-color: var(--voj-color-secondary) !important;
 }
 
 button[clear].button.secondary-btn,
 button[clear].button.secondary-btn:hover {
-  color: var(--voj-color-secondary);
+  color: var(--voj-color-secondary) !important;
+}
+
+button.button.danger-btn:not([clear]),
+button.button.danger-btn:not([clear]):hover {
+  background-color: var(--voj-color-danger) !important;
+}
+
+button[clear].button.danger-btn,
+button[clear].button.danger-btn:hover {
+  color: var(--voj-color-danger) !important;
 }
 
 button.button.warn-btn:not([clear]),
 button.button.warn-btn:not([clear]):hover {
-  background-color: var(--voj-color-warn);
+  background-color: var(--voj-color-warn) !important;
 }
 
 button[clear].button.warn-btn,
 button[clear].button.warn-btn:hover {
-  color: var(--voj-color-warn);
+  color: var(--voj-color-warn) !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -31154,6 +31154,29 @@ page-work-conditions .activation-link {
 
 page-work-conditions .danger {
   background-color: #e93a3a;
+}
+
+page-scheduling-offers-calendar voj-calendar {
+  background-color: #ffffff !important;
+}
+
+page-scheduling-offers-calendar .calender-container {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: var(--voj-color-primary) !important;
+}
+
+page-scheduling-offers-calendar .calendar-wrapper {
+  height: 100%;
+}
+
+page-scheduling-offers-calendar .calendar-wrapper.pad {
+  background-color: var(--voj-color-primary) !important;
+  padding: 16px;
 }
 
 page-scheduling-offers-jobyers .schedule-jobyers-page-content {

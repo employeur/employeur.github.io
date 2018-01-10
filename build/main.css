@@ -34162,6 +34162,10 @@ page-scheduling-offers-jobyers ion-segment-button {
   border-color: #ffffff !important;
 }
 
+page-scheduling-offers-jobyers h5 {
+  color: white;
+}
+
 page-scheduling-offers-list .my-offers-page-content {
   background-color: var(--voj-color-primary);
 }
@@ -34626,14 +34630,14 @@ page-vitbox-details .col-header {
   color: #ffffff;
 }
 
+page-vitbox-table-list .voj-scrollable-content-wrapper.card-content.card-content-md {
+  height: calc( 100% - 56px);
+}
+
 ion-spinner * {
   width: 28px;
   height: 28px;
   stroke: #444 !important;
-}
-
-.voj-scrollable-content-wrapper.card-content.card-content-md {
-  height: calc( 100% - 56px);
 }
 
 page-about ion-header {

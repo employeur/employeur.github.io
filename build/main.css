@@ -33348,6 +33348,10 @@ sign-up-page .custom-btn {
   border-color: var(--voj-color-primary);
 }
 
+page-subuser-create .danger {
+  color: #e93a3a;
+}
+
 user-information-page {
   background-color: var(--voj-color-primary);
 }

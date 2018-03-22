@@ -34266,6 +34266,14 @@ page-details ion-content {
   }
 }
 
+convention-data-page .convention-link {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20px;
+  color: #000000;
+  text-decoration: underline;
+}
+
 page-home voj-map #map {
   height: 400px;
   width: calc(100% - 20px);

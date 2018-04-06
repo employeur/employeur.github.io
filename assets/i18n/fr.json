@@ -279,7 +279,7 @@
     "VALID_FROM": "Valable du",
     "VALID_FROM_ERR": "Veuillez saisir une date supérieure à la date de délivrance",
     "VALID_TO": "Au",
-    "VALID_TO_ERR": "Veuillez saisir une date supériure à la date de début de validité",
+    "VALID_TO_ERR": "Veuillez saisir une date supérieure à la date de début de validité",
     "VALIDATE_BTN": "Valider",
     "FOLLOWING_BTN": "Suivant",
     "NATIONALITIES_LIST": "Liste des nationalités",
